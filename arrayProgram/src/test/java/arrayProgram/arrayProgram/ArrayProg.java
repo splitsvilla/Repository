@@ -8,7 +8,7 @@ public class ArrayProg {
 		int s=0,avg;
 		for(int a:arr)
 		{
-			 s=s;
+			 s=s+a;
 		}
 		avg=s/arr.length;
 		System.out.println(avg);
